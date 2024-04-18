@@ -1,5 +1,5 @@
 import { menuItems } from "../data/db"
-import { MenuItem } from "../types"
+import type { MenuItem } from "../types"
 
 type MenuItemProps = {
     addItem: (item: MenuItem) => void
